@@ -3,113 +3,206 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="img/favicon.png">
 
 	<link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<link rel="stylesheet" href="css/demo.css"> <!-- Demo style -->
   	
-	<title>Responsive Vertical Timeline</title>
+	<title>Hacktrick | Yılın En Başarılı Üniversite Kulübü</title>
 </head>
 <body>
 	<header>
-		<div class="cd-nugget-info">
-			<a href="https://codyhouse.co/gem/vertical-timeline/">
-				<span>
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
-						<style type="text/css">
-							.cd-nugget-info-arrow{fill:#383838;}
-						</style>
-						<polygon class="cd-nugget-info-arrow" points="15,7 4.4,7 8.4,3 7,1.6 0.6,8 0.6,8 0.6,8 7,14.4 8.4,13 4.4,9 15,9 "/>
-					</svg>
-				</span>
-				Article &amp; Download
-			</a>
-		</div> <!-- cd-nugget-info -->
-		<h1>Responsive Vertical Timeline</h1>
+		<img src="img/hacktrick.svg" alt="" style="width:400px">
+		<h1>Yılın En Başarılı Üniversite Kulübü Adayı</h1>
+		<img src="img/logo.png" alt="">
 	</header>
 
+	<div class="container welcome">
+		<h2>HOŞGELDİNİZ SAYIN JÜRİ ÜYESİ</h2>
+		<p>Bu sayfa Ondokuz Mayıs Üniversitesi Siber Güvenlik Topluluğu’nun HACKTRICK’18  kapsamında gerçekleştirilen ‘Yılın En Başarılı Üniversite Kulübü’ seçmelerinde siz Sayın Jüri Üyelerimize etkin içerik sunulması amacı ile hazırlanmıştır.
+				Gerçekleştirilen etkinliklerin mümkün olduğunca ilan afişleri ile birlikte ve zaman akışına uygun olarak listelenmesine özen gösterilmiştir.
+				Tüm adaylarımıza başarılar dilerken;  siz değerli jüri üyelerimizden tüm aday topluluklarımız adına yapılacak oylamalarda topluluğun bağlı bulunduğu üniversitenin marka adı göz ardı edilmesini, çalışmaların devam ettiği ilin siber güvenlik sektörüne yönelik alt yapı ve imkanlarının göz önünde bulundurulmasını arz ediyoruz. Bu tarz bir yaklaşımın sektörel imkanlar, etkinliklerin büyüklüğü ve sarf edilen gayret miktarının doğru oranlanabilmesi ve Anadolunun her bir köşesinde faaliyet gösteren tüm aday topluluklarımızın sektöre sunduğu değerin gerçek büyüklüğünü ortaya çıkaracağı inancındayız.</p>
+		<p>
+			Saygılarımızla<br>
+			OMUSiber Yönetim Kurulu
+		</p>
+		
+				<span>
+			İçerik güncellenmektedir!
+		</span>
+			</div>
+
+	<!--
 	<section class="cd-timeline js-cd-timeline">
 		<div class="cd-timeline__container">
 			<div class="cd-timeline__block js-cd-block">
 				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-					<img src="img/cd-icon-picture.svg" alt="Picture">
-				</div> <!-- cd-timeline__img -->
+						<img src="img/verified-text-paper.svg" class="icon">
+				</div>
 
 				<div class="cd-timeline__content js-cd-content">
-					<h2>Title of section 1</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Jan 14</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
+					<div class="col-md-9">
+						<h2>Her gün yeni 1 bilgi</h2>
+						<p>Sosyal medya aracılığı ile "Her gün yeni bir bilgi" başlığı altında hazırlanan bilgi kartları paylaşılmıştır.</p>	
+					</div>
+					<div class="col-md-3">
+						<div class="row">
+							<div class="col-md-3">
+								<img src="img/content/yenibilgi.jpeg" alt="">
+							</div>
+							<div class="col-md-3">
+
+							</div>
+						</div>
+					</div>
+					<span class="cd-timeline__date">Ekim 17</span>
+				</div>
+			</div> 
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+					<img src="img/open-book.svg" class="icon">
+				</div>
+
+				<div class="cd-timeline__content js-cd-content">
+					<div class="col-md-9">
+						<h2>Pwnlydays</h2>
+						<p>5 ayrı sınıfta 200'e yakın öğrencinin katılımıyla gerçekleşmiş ve TRT Ana Haber'de de "Türkiye'nin çeşitli üniversitelerinden öğrenciler; Bilgi Ağ ve Web Uygulamalarının siber saldırılarda nasıl korunması gerektiğini belirlemek amacıyla Samsun'da bir araya geldi" başlığı ile geniş bir yankı bulmuştur.</p>	
+					</div>
+					<span class="cd-timeline__date">Ekim 17</span>
+				</div>
+			</div>
 
 			<div class="cd-timeline__block js-cd-block">
 				<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
-					<img src="img/cd-icon-movie.svg" alt="Movie">
-				</div> <!-- cd-timeline__img -->
-
+					<img src="img/bug-fixing.svg" class="icon">
+				</div>
 				<div class="cd-timeline__content js-cd-content">
-					<h2>Title of section 2</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+					<h2>OMUCTF</h2>
+					<p>Yalnızca topluluğa yeni katılan öğrencileri bilgilendirmek ve alanın eğlenceli olduğunu göstermek amacıyla hazırladığımız bu yarışma maalesef talihsizlik sonucu tamamlanamadı. Fakat bu talihsizlikten çıkardığımız sonuç, sonraki etkinliklerde yapacağımız büyük hataların önüne geçti.</p>
 					<a href="#0" class="cd-timeline__read-more">Read more</a>
 					<span class="cd-timeline__date">Jan 18</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
+				</div>
+			</div>
 
 			<div class="cd-timeline__block js-cd-block">
 				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
 					<img src="img/cd-icon-picture.svg" alt="Picture">
-				</div> <!-- cd-timeline__img -->
-
+				</div> 
 				<div class="cd-timeline__content js-cd-content">
-					<h2>Title of section 3</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
+					<h2>Eğitimler</h2>
+					<p>Farklı haftalarda Samsun Teknopark işbirliği ile düzenlenen etkinlikler kapsamında topluluk öğrencilerine aşağıdaki alanlarda eğitimler verilmiştir.</p>
+					<ul class="educations">
+						<li>Temel Network Eğitimi</li>
+						<li>Git ile Sürüm Kontrolü Eğitimi</li>
+						<li>NMAP Eğitimi</li>
+						<li>Wireshark Eğitimi</li>
+						<li>Kablosuz Ağlarda Sızma Testi Eğitimi</li>
+					</ul>
 					<span class="cd-timeline__date">Jan 24</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
+				</div>
+			</div>
 
 			<div class="cd-timeline__block js-cd-block">
 				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
-					<img src="img/cd-icon-location.svg" alt="Location">
-				</div> <!-- cd-timeline__img -->
+					<img src="img/webcam.svg" class="icon">
+				</div>
 
 				<div class="cd-timeline__content js-cd-content">
-					<h2>Title of section 4</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+					<h2>Her Hafta Telekonferans</h2>
+					<p>sadasdsadsa</p>
 					<a href="#0" class="cd-timeline__read-more">Read more</a>
 					<span class="cd-timeline__date">Feb 14</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
+				</div>
+			</div>
 
 			<div class="cd-timeline__block js-cd-block">
 				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
-					<img src="img/cd-icon-location.svg" alt="Location">
-				</div> <!-- cd-timeline__img -->
+					<img src="img/podium.svg" class="icon">
+				</div>
 
 				<div class="cd-timeline__content js-cd-content">
-					<h2>Title of section 5</h2>
+					<h2>OMUCTF'18 Yarı Final</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+					<span class="cd-timeline__date">Feb 18</span>
+				</div>
+			</div>
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<img src="img/yin-yang.svg" alt="Location">
+				</div>
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>YinYang'18</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
 					<a href="#0" class="cd-timeline__read-more">Read more</a>
 					<span class="cd-timeline__date">Feb 18</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
+				</div>
+			</div>
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<img src="img/microphone.svg" alt="Location">
+				</div>
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>Bilgi Güvenliği Zirvesi</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+					<a href="#0" class="cd-timeline__read-more">Read more</a>
+					<span class="cd-timeline__date">Feb 18</span>
+				</div>
+			</div>
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<img src="img/podium.svg" class="icon">
+				</div>
+
+				<div class="cd-timeline__content js-cd-content">
+					<h2>OMUCTF'18 Final</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+					<span class="cd-timeline__date">Feb 18</span>
+				</div>
+			</div> 
 
 			<div class="cd-timeline__block js-cd-block">
 				<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
-					<img src="img/cd-icon-movie.svg" alt="Movie">
-				</div> <!-- cd-timeline__img -->
+					<img src="img/loupe.svg" class="icon">
+				</div>
 
 				<div class="cd-timeline__content js-cd-content">
-					<h2>Final Section</h2>
+					<h2>Workshop</h2>
 					<p>This is the content of the last section</p>
 					<span class="cd-timeline__date">Feb 26</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
+				</div>
+			</div>
+
 		</div>
-	</section> <!-- cd-timeline -->
+	</section> 
+
+	-->
+	<footer>
+		<div class="row">
+			<ul class="social">
+				<li>
+					<a href="https://omusiber.org" target="_blank"><img src="img/www.svg" alt=""></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/omusiber" target="_blank"><img src="img/twitter.svg" alt=""></a>
+				</li>
+				<li>
+					<a href="https://instagram.com/omusiber" target="_blank"><img src="img/instagram.svg" alt=""></a>
+				</li>
+			</ul>
+		</div>
+		<div class="copyright">
+			Copyright &copy; 2018. Made with <span style="color:red;font-size: 24px;">♥</span> by OMUSiber
+		</div>
+	</footer>
 	
 <script src="js/main.js"></script> <!-- Resource JavaScript -->
 </body>

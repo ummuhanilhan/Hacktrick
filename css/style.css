@@ -33,6 +33,18 @@ h1, h2 {
   font-weight: bold;
 }
 
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+ul.educations li:before {
+  content: "> ";
+}
+
 /* -------------------------------- 
 
 Patterns - reusable parts of our design
@@ -50,13 +62,18 @@ Resource style
 
 -------------------------------- */
 header {
-  height: 200px;
-  line-height: 200px;
+  /*line-height: 200px;*/
   text-align: center;
-  background: #303e49;
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);;
+}
+
+img.icon {
+  width:24px;
+  height:24px;
 }
 
 header h1 {
+  padding: 1% 0;
   color: white;
   font-size: 1.8rem;
 }
@@ -64,7 +81,7 @@ header h1 {
 @media only screen and (min-width: 1170px) {
   header {
     height: 300px;
-    line-height: 300px;
+    /*line-height: 300px;*/
   }
   header h1 {
     font-size: 2.4rem;
@@ -421,4 +438,48 @@ header h1 {
     -webkit-transform: translateX(0);
             transform: translateX(0);
   }
+}
+
+footer {
+  padding: 10px;
+  background: #000;
+  text-align: center;
+}
+
+footer div.row {
+  margin: 0;
+}
+footer ul.social {
+  padding: 20px 0;
+}
+footer ul.social a img {
+  width: 40px;
+  filter: grayscale(100%);
+  transition: all ease .4s;
+  margin: 0 5px;
+}
+footer ul.social a:hover img {
+  filter: grayscale(0%);
+  transition: all ease .4s;
+}
+footer ul.social li {
+  display: inline-block;
+}
+
+div.container.welcome h2 {
+  padding: 2%;
+  font-size: 2rem;
+}
+
+div.container.welcome p {
+  padding: 0 5% 5% 5%;
+  line-height: 2.5rem;
+}
+
+div.container.welcome span {
+  text-align: center;
+  font-weight: 900;
+  display: block;
+  margin-bottom: 5%;
+  text-transform: uppercase;
 }
