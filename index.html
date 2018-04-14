@@ -4,9 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="img/favicon.png">
-
-	<link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
-
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
@@ -15,7 +14,7 @@
 </head>
 <body>
 	<header>
-		<img src="img/hacktrick.svg" alt="" style="width:400px">
+		<img src="img/hacktrick.svg" alt="" class="hacktrick">
 		<h1>Yılın En Başarılı Üniversite Kulübü Adayı</h1>
 		<img src="img/logo.png" alt="" style="width: 80px;margin-top: 20px;">
 	</header>
@@ -29,36 +28,33 @@
 			Saygılarımızla<br>
 			OMUSiber Yönetim Kurulu
 		</p>
-		
-				<span>
-			İçerik güncellenmektedir!
-		</span>
-			</div>
+	</div>
 
-	<!--
+	
 	<section class="cd-timeline js-cd-timeline">
 		<div class="cd-timeline__container">
 			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
 						<img src="img/verified-text-paper.svg" class="icon">
 				</div>
 
 				<div class="cd-timeline__content js-cd-content">
 					<div class="col-md-9">
-						<h2>Her gün yeni 1 bilgi</h2>
-						<p>Sosyal medya aracılığı ile "Her gün yeni bir bilgi" başlığı altında hazırlanan bilgi kartları paylaşılmıştır.</p>	
+						<h2>Her gün 1 yeni bilgi</h2>
+						<p><a href="https://twitter.com/omusiber">Twitter</a> ve <a href="https://instagram.com/omusiber">Instagram</a> hesaplarımızdan siber güvenlik alanında kendini geliştirmek isteyen kişilere yardımcı olmak,
+						araştırmaya yöneltmek amacı ile her gün düzenli olarak bilgi kartları paylaşımı yapılmaktadır. Başlangıçta Türkçe olarak yapılan paylaşımlar, bir süre sonra İngilizce diline de çevrilerek Türkçe-İngilizce olarak birlikte paylaşılmaya devam etmektedir.</p>	
 					</div>
 					<div class="col-md-3">
 						<div class="row">
 							<div class="col-md-3">
-								<img src="img/content/yenibilgi.jpeg" alt="">
+								<img src="img/content/yenibilgi.jpeg" alt="" class="event">
 							</div>
 							<div class="col-md-3">
 
 							</div>
 						</div>
 					</div>
-					<span class="cd-timeline__date">Ekim 17</span>
+					<span class="cd-timeline__date">Yıl boyu</span>
 				</div>
 			</div> 
 
@@ -68,41 +64,105 @@
 				</div>
 
 				<div class="cd-timeline__content js-cd-content">
-					<div class="col-md-9">
-						<h2>Pwnlydays</h2>
-						<p>5 ayrı sınıfta 200'e yakın öğrencinin katılımıyla gerçekleşmiş ve TRT Ana Haber'de de "Türkiye'nin çeşitli üniversitelerinden öğrenciler; Bilgi Ağ ve Web Uygulamalarının siber saldırılarda nasıl korunması gerektiğini belirlemek amacıyla Samsun'da bir araya geldi" başlığı ile geniş bir yankı bulmuştur.</p>	
+					<div class="row">
+						<div class="col-md-9">
+							<h2>Pwnlydays</h2>
+							<p>Canyoupwn.me ekibi desteği ile uzman kişiler tarafından hazırlanmış ve tamamen ücretsiz olan siber güvenlik eğitimlerine ev sahipliği yapılmıştır. 
+								Eğitim ve sosyalleşme ön planlı olan bu etkinlikte, 200'e yakın kişinin katılımı ile 5 ayrı sınıfta eğitimler gerçekleşmiştir.</p>
+								<ul class="educations">
+									<li>Web Exploitation</li>
+									<li>Uygulamalı Sızma Testi</li>
+									<li>Python 101</li>
+									<li>Linux 101</li>
+									<li>Siber Güvenliğe Giriş</li>
+								</ul>	
+						</div>
+						<div class="col-md-3">
+							<img src="img/content/pwnyldays.jpeg" alt="" class="event">
+						</div>
 					</div>
-					<span class="cd-timeline__date">Ekim 17</span>
+					<hr>
+					<div class="row">
+							<iframe src="https://www.youtube.com/embed/IQaXTd8Ljg4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+					<span class="cd-timeline__date">Ekim 21-22</span>
 				</div>
 			</div>
+			
+			<div class="cd-timeline__block js-cd-block">
+					<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+						<img src="img/cd-icon-picture.svg" alt="Picture">
+					</div> 
+					<div class="cd-timeline__content js-cd-content">
+						<div class="col-md-9">
+							<h2>Eğitimler</h2>
+							<p>Farklı haftalarda Samsun Teknopark işbirliği ile düzenlenen etkinlikler kapsamında topluluk öğrencilerine aşağıdaki alanlarda eğitimler verilmiştir.</p>
+							<ul class="educations">
+								<li>Git ile Sürüm Kontrolü Eğitimi</li>
+								<div class="edu-body">
+									Okul bünyesinde yeni kurulan Siber Güvenlik ve Kriptoloji Laboratuvarı için gerçekleştirmeyi planladığımız ve projeler için ortak çalışma sağlayabilmek amacı ile düzenlenmiştir.
+								</div>
+								<li>Temel Network Eğitimi</li>
+								<div class="edu-body">
+									Katılımcılara OSI ve TCP katmanları başta olmak üzere ağ cihazları, tcp paket içeriği vb konularda bilgi verilmiştir. Eğitimin amacı bir sonraki eğitimler için katılımcılarda temel oluşturmaktır. 
+								</div>
+								<li>NMAP Eğitimi</li>
+								<div class="edu-body">
+									NMAP kullanılarak, katılımcılara ağ keşif yöntemleri öğretmek için workshop düzenlenmiştir. 
+								</div>
+								<li>Wireshark Eğitimi</li>
+								<div class="edu-body">
+									Ağ paketleri izleme ve analizi için sıkça kullanılan Wireshark programının tanıtımı ve temel kullanım ilkeleri anlatılmıştır. 
+								</div>
+								<li>Kablosuz Ağlarda Sızma Testi Eğitimi</li>
+								<div class="edu-body">
+									Temel Linux konsol bilgileri verilerek başlayan eğitimde cep telefonu aracılığı ile oluşturulan bir kablosuz ağa sızma testi denemesi yapılmıştır.
+								</div>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<img src="img/content/Network.jpg" alt="" class="event">
+							<img src="img/content/NMAP.jpg" alt="" class="event">
+							<img src="img/content/WorkshopCTF.jpg" alt="" class="event">
+						</div>
+						<span class="cd-timeline__date">Jan 24</span>
+					</div>
+				</div>
 
 			<div class="cd-timeline__block js-cd-block">
 				<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
 					<img src="img/bug-fixing.svg" class="icon">
 				</div>
 				<div class="cd-timeline__content js-cd-content">
-					<h2>OMUCTF</h2>
-					<p>Yalnızca topluluğa yeni katılan öğrencileri bilgilendirmek ve alanın eğlenceli olduğunu göstermek amacıyla hazırladığımız bu yarışma maalesef talihsizlik sonucu tamamlanamadı. Fakat bu talihsizlikten çıkardığımız sonuç, sonraki etkinliklerde yapacağımız büyük hataların önüne geçti.</p>
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Jan 18</span>
+					<div class="col-md-9">
+						<h2>OMUCTF</h2>
+						<p>Öncesinde gerçekleştirilen CTF soruları ve çözümleri eğitiminden sonra düzenlenmiştir. Diğer CTF yarışmalarından farklı olarak asıl amaç bu tarz yarışmalarda 
+							hangi soruya nasıl bir yaklaşım tarzı sergilenmesi gerektiğini ve tipik soru kalıplarını öğretmekti. Yaşanan talihsizlik sonucu yarışma başladıktan yaklaşık iki saat sonra 
+							sunucu problemi meydana gelmiş ve sorunun çözülememesi nedeni ile yarışmaya devam edilememiştir.
+						</p>
+						<p>Soru sayısı: 25</p>
+						<p>Katılımcı: 105</p>
+					</div>
+					<div class="col-md-3">
+						<img src="img/content/omuctf.jpg_large" alt="" class="event">
+					</div>
+					<span class="cd-timeline__date">Aralık 17</span>
 				</div>
 			</div>
 
 			<div class="cd-timeline__block js-cd-block">
 				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-					<img src="img/cd-icon-picture.svg" alt="Picture">
-				</div> 
+					<img src="img/bus.svg" class="icon">
+				</div>
 				<div class="cd-timeline__content js-cd-content">
-					<h2>Eğitimler</h2>
-					<p>Farklı haftalarda Samsun Teknopark işbirliği ile düzenlenen etkinlikler kapsamında topluluk öğrencilerine aşağıdaki alanlarda eğitimler verilmiştir.</p>
-					<ul class="educations">
-						<li>Temel Network Eğitimi</li>
-						<li>Git ile Sürüm Kontrolü Eğitimi</li>
-						<li>NMAP Eğitimi</li>
-						<li>Wireshark Eğitimi</li>
-						<li>Kablosuz Ağlarda Sızma Testi Eğitimi</li>
-					</ul>
-					<span class="cd-timeline__date">Jan 24</span>
+					<div class="col-md-9">
+						<h2>Akademik Bilişim</h2>
+						<p>Topluluk üyelerimiz ile toplu şekilde akademik bilişime farklı eğitimler ile katılım sağladık..</p>
+					</div>
+					<div class="col-md-3">
+						<img src="img/content/ab.jpg_large" alt="" class="event">
+					</div>
+					<span class="cd-timeline__date">Ocak 27</span>
 				</div>
 			</div>
 
@@ -112,10 +172,38 @@
 				</div>
 
 				<div class="cd-timeline__content js-cd-content">
-					<h2>Her Hafta Telekonferans</h2>
-					<p>sadasdsadsa</p>
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Feb 14</span>
+					<div class="col-md-8">
+						<h2>Her Hafta Telekonferans</h2>
+						<p>Sektörde yıllarını geçirmiş insanlarla, henüz öğrenci olan ve gelecekte siber güvenlik sektöründe çalışmak isteyen 
+							insanları birleştirmek ve tecrübe paylaşımını sağlamak için gerçekleştirdiğimiz etkinliktir. Okul kaynaklı bazı problemler dolayısıyla planlanan 
+							bazı haftalar düzenlenememiştir.
+						</p>
+						<ul class="educations">
+							<li>Caner Köroğlu</li>
+							<li>Mustafa Altınkaynak</li>
+							<li>Gökay Bekşen</li>
+							<li>Mert Sarıca</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-6">
+								<img src="img/content/Caner_Koroglu.jpg" alt="" class="event">
+							</div>
+							<div class="col-md-6">
+								<img src="img/content/Mustafa_Altinkaynak.jpg" alt="" class="event">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<img src="img/content/Gokay_Beksen.jpg" alt="" class="event">
+							</div>
+							<div class="col-md-6">
+								<img src="img/content/Mert_Sarica.jpg" alt="" class="event">
+							</div>
+						</div>
+					</div>
+					<span class="cd-timeline__date">Şubat, Mart</span>
 				</div>
 			</div>
 
@@ -125,22 +213,36 @@
 				</div>
 
 				<div class="cd-timeline__content js-cd-content">
-					<h2>OMUCTF'18 Yarı Final</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-					<span class="cd-timeline__date">Feb 18</span>
+					<div class="col-md-9">
+						<h2>OMUCTF'18 Yarı Final</h2>
+						<p>26 Nisan tarihinde Bilgi Teknolojileri ve İletişim Kurumu desteği ile düzenlenecek Samsun Bilgi Güvenliği Zirvesi kapsamında final aşaması gerçekleştirilecek ödüllü offline CTF için yapılan eleme yarışmasıdır. Yarı final sonucu üçer kişilik 8 takım Samsun’a davet edilmiştir.</p>
+						<p>Soru Sayısı: 35</p>
+						<p>Katılımcı Sayısı: 224</p>
+					</div>
+					<div class="col-md-3">
+						<img src="img/content/OMUCTF-18.jpg" alt="" class="event">
+					</div>
+					<span class="cd-timeline__date">Mart 10</span>
 				</div>
 			</div>
 
 			<div class="cd-timeline__block js-cd-block">
 				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
-					<img src="img/yin-yang.svg" alt="Location">
+					<img src="img/yin-yang.svg" alt="YinYang">
 				</div>
 
 				<div class="cd-timeline__content js-cd-content">
-					<h2>YinYang'18</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Feb 18</span>
+					<div class="col-md-9">
+						<h2>YinYang'18</h2>
+						<p>Kendini nasıl tanımlarsın. Bir iyilik meleği mi, Yoksa şeytanın ta kendisi mi... YinYang felsefesi, kökeni Çin'e dayanan, benliğin özünü oluşturan birbirleri içine gizlenmiş iyi ve kötü gücün mükemmel dengesinden bahseder. 
+						Siber uzayda birbirlerini var eden bu iki güç saldırı ve savunma olarak karşımıza çıkmaktadır.  BlackBox ekibi desteği ile ev sahipliğini yaptığımız etkinlikte ülkemizin dört bir tarafından gelen toplam 75 katılımcıya 3 gün süreyle kırmızı takım (saldırı) - mavi takım (savunma) eğitimleri ve aynı zamanda giriş seviyesi olarak oluşturulmuş ayrı bir gruba da siber güvenliğe giriş eğitimleri verilmiştir.  Eğitimlerin amacı katılımcıların hem teorik hem de pratik bilgiler ile donatılarak en yüksek düzeyde fayda sağlanmasıdır. </p>	
+						<p>Kontenjan: 90</p>
+					</div>
+					<div class="col-md-3">
+						<img src="img/content/YinYang.jpg" alt="" class="event">
+					</div>
+				
+					<span class="cd-timeline__date">Mart 16-17-18</span>
 				</div>
 			</div>
 
@@ -150,10 +252,14 @@
 				</div>
 
 				<div class="cd-timeline__content js-cd-content">
-					<h2>Bilgi Güvenliği Zirvesi</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Feb 18</span>
+					<div class="col-md-9">
+						<h2>Samsun Bilgi Güvenliği Zirvesi</h2>
+						<p>Büyüyerek tekrar etmesini planlanan Bilgi Teknolojileri ve İletişim Kurumu Bölge Müdürlüğü ve Emniyet Müdürlüğü Siber Suçlarla Mücadele Samsun Şubesi desteği ile Karadeniz’in en büyük siber güvenlik etkinliğini düzenleme amacı ile hazırlandığımız iki gün sürecek konferans ve eş zamanlı olarak düzenlenecek Ödülü CTF ayrıca OMÜ Bilgisayar Mühendisliği bitirme projeleri sunumunu kapsayan bir etkinliktir.</p>	
+					</div>
+					<div class="col-md-3">
+						<img src="img/content/SamsunBGZ.jpg" alt="" class="event">
+					</div>
+					<span class="cd-timeline__date">Nisan 26-27</span>
 				</div>
 			</div>
 
@@ -164,8 +270,8 @@
 
 				<div class="cd-timeline__content js-cd-content">
 					<h2>OMUCTF'18 Final</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-					<span class="cd-timeline__date">Feb 18</span>
+					<p>Samsun Teknoloji Geliştirme Bölgesi Kuluçka Merkezi’nde yapılması planlanan offline CTF türünde bir yarışmadır. Yarışmacılar 10 Mart tarihinde düzenlenen OMUCTF’18 Yarı Finalde başarılı olmuş ilk sekiz takım'dan seçilmiştir.</p>
+					<span class="cd-timeline__date">Nisan 26</span>
 				</div>
 			</div> 
 
@@ -175,16 +281,16 @@
 				</div>
 
 				<div class="cd-timeline__content js-cd-content">
-					<h2>Workshop</h2>
-					<p>This is the content of the last section</p>
-					<span class="cd-timeline__date">Feb 26</span>
+					<h2>sızma testi eğitimi</h2>
+					<p>Samsun Bilgi Güvenliği Zirvesi altın sponsoru YEDAŞ iş birliği ile Zirve sonrası belirli kontenjanlı "Uygulamalı Sızma Testi" eğitimi verilecektir. Eğitim kapsamında gerçekleştirilecek olan uygulamada başarılı olanlar YEDAŞ tarafından ödül kazanacaktır ve staj fırsatı yakalama olanağı bulacaktır.</p>
+					
+					<span class="cd-timeline__date">Mayıs 2</span>
 				</div>
 			</div>
 
 		</div>
 	</section> 
 
-	-->
 	<footer>
 		<div class="row">
 			<ul class="social">
