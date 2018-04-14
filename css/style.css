@@ -560,3 +560,7 @@ img.ref-img {
 div.reference p {
   padding: 20px 0;
 }
+
+div#modals img {
+  max-width: 100%;
+}
