@@ -76,7 +76,8 @@ Resource style
 header {
   /*line-height: 200px;*/
   text-align: center;
-  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);;
+  /*background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
+  background: linear-gradient(180deg, #0fb8ad 0%, #1fc8db 51%, #e9f0f5 75%);
 }
 
 img.icon {
@@ -484,8 +485,16 @@ div.container.welcome h2 {
 }
 
 div.container.welcome p {
-  padding: 0 5% 5% 5%;
+  padding: 0 5%;
   line-height: 2.5rem;
+}
+
+div.welcome p:nth-child(2) {
+  padding-top: 20px;
+}
+
+div.welcome p:nth-child(4) {
+  padding: 20px 5%;
 }
 
 div.container.welcome span {
